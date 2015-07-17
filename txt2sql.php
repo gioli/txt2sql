@@ -1,7 +1,7 @@
 <?php 
 // --------------------------------------------------------------
 
-function csv_in_array($url,$delm=";",$encl="\"",$head=false) { 
+function csv_in_array($url,$delm="\t",$encl="\"",$head=false) { 
     
     $csvxrow = file($url);   // ---- csv rows to array ----
     
