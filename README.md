@@ -1,2 +1,5 @@
 # txt2sql
-Convert text file in which elements are separated with tabs into an SQL DB.
+
+PHP function that converts text file in which elements are separated by tabs into an SQL DB. 
+input: txt-file 
+output: SQL-DB
